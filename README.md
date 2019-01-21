@@ -45,7 +45,7 @@
 
 * Rubocop :  
   * create rubocop configuration file : .rubocop.yml
-  * run `rubocop -a` in order to eliminate : **frozen_string_literal: true**
+  * run `rubocop -a` in order to eliminate the offense : **frozen_string_literal: true**
 
 * Rspec :  
   * run `rails generate rspec:install`
@@ -107,7 +107,3 @@
   * check that your services are up with the command `docker-compose ps`
   * setup the database with `rails db:create db:migrate` 
   * Launch local server with `rails s`
-
-* Assets :  
-  * create file **docker-compose.yml**
-  * check that Docker is properly installed with the command `docker run hello-world`
